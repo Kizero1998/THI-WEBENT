@@ -1,0 +1,15 @@
+CREATE DATABASE dbEXAM
+GO 
+USE dbEXAM
+GO
+CREATE TABLE tblExaming
+(
+	_subject varchar,
+	_startTime time,
+	_examDate date,
+	_duration time,
+	_classroom varchar,
+	_faculty varchar,
+	_status varchar,
+PRIMARY KEY (_faculty)
+);
